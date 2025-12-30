@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>LLM on Shirin9345 Blog</title>
+        <link>https://shirin9345.github.io/tags/llm/</link>
+        <description>Recent content in LLM on Shirin9345 Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 31 Dec 2025 02:26:00 +0800</lastBuildDate><atom:link href="https://shirin9345.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The Rise of Agentic AI in Software Development</title>
+        <link>https://shirin9345.github.io/posts/agentic-ai/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:00 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/posts/agentic-ai/</guid>
+        <description>&lt;h1 id=&#34;the-rise-of-agentic-ai-in-software-development&#34;&gt;The Rise of Agentic AI in Software Development
+&lt;/h1&gt;&lt;p&gt;In the last few years, the role of Artificial Intelligence in software development has undergone a radical transformation. What started as basic autocompletion tools has evolved into sophisticated &lt;strong&gt;Agentic AI&lt;/strong&gt; systems capable of navigating entire codebases, planning multi-step implementations, and verifying their own work.&lt;/p&gt;
+&lt;h2 id=&#34;from-copilots-to-agents&#34;&gt;From Copilots to Agents
+&lt;/h2&gt;&lt;p&gt;Traditional AI assistants (often called &amp;ldquo;Copilots&amp;rdquo;) acted primarily as enhanced search engines or code generators for small snippets. While useful, they required constant human supervision and manual &amp;ldquo;gluing&amp;rdquo; of code pieces.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Agentic AI&lt;/strong&gt; changes the game by introducing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomy&lt;/strong&gt;: The ability to break down high-level goals into actionable tasks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context Awareness&lt;/strong&gt;: A deep understanding of the local environment, including file systems and project structures.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Correction&lt;/strong&gt;: The capacity to run tests, interpret errors, and iterate on solutions without constant human intervention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-impact-on-the-developer-workflow&#34;&gt;The Impact on the Developer Workflow
+&lt;/h2&gt;&lt;p&gt;The shift toward agentic systems doesn&amp;rsquo;t replace the developer; it elevates them. Developers move from being &amp;ldquo;coders&amp;rdquo; to being &amp;ldquo;architects&amp;rdquo; or &amp;ldquo;reviewers.&amp;rdquo; Instead of worrying about syntax and boilerplate, engineers can focus on:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Defining the Goal&lt;/strong&gt;: Clearly articulating what needs to be built.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reviewing the Plan&lt;/strong&gt;: Ensuring the agent&amp;rsquo;s proposed path aligns with the project&amp;rsquo;s long-term architecture.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Verifying the Result&lt;/strong&gt;: Making the final call on whether the task has been completed to the required standard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;challenges-ahead&#34;&gt;Challenges Ahead
+&lt;/h2&gt;&lt;p&gt;Despite the progress, challenges remain. Reliability, security, and the &amp;ldquo;hallucination&amp;rdquo; problem are still front and center. However, the trajectory is clear: the future of software development is collaborative, with humans and agents working side-by-side to build more complex systems, faster than ever before.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h3&gt;&lt;p&gt;Agentic AI is not just a trend; it&amp;rsquo;s the next logical step in the evolution of our tools. As these agents become more capable, the barrier to creating software will continue to drop, unleashing a new wave of innovation across the industry.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

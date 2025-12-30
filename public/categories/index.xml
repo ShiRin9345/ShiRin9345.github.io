@@ -2,9 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Shirin9345 Blog</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://shirin9345.github.io/categories/</link>
         <description>Recent content in Categories on Shirin9345 Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language>
+        <lastBuildDate>Wed, 31 Dec 2025 02:26:10 +0800</lastBuildDate><atom:link href="https://shirin9345.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>https://shirin9345.github.io/categories/hugo/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:10 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/hugo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Static Site</title>
+        <link>https://shirin9345.github.io/categories/static-site/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:10 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/static-site/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Design</title>
+        <link>https://shirin9345.github.io/categories/design/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:05 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/design/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Frontend</title>
+        <link>https://shirin9345.github.io/categories/frontend/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:05 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/frontend/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>AI</title>
+        <link>https://shirin9345.github.io/categories/ai/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:00 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/ai/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Development</title>
+        <link>https://shirin9345.github.io/categories/development/</link>
+        <pubDate>Wed, 31 Dec 2025 02:26:00 +0800</pubDate>
+        
+        <guid>https://shirin9345.github.io/categories/development/</guid>
+        <description></description>
+        </item>
+        
     </channel>
 </rss>
