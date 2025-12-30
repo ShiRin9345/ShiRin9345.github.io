@@ -92,8 +92,10 @@
     <loc>https://shirin9345.github.io/post/test/</loc>
     <lastmod>2025-10-13T16:46:13+08:00</lastmod>
   </url><url>
-    <loc>https://shirin9345.github.io/archives/</loc>
+    <loc>https://shirin9345.github.io/page/</loc>
   </url><url>
-    <loc>https://shirin9345.github.io/search/</loc>
+    <loc>https://shirin9345.github.io/page/archives/</loc>
+  </url><url>
+    <loc>https://shirin9345.github.io/page/search/</loc>
   </url>
 </urlset>
