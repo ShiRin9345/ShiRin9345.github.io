@@ -1,6 +1,7 @@
 +++
 title = 'The Rise of Agentic AI in Software Development'
 date = '2025-12-31T02:26:00+08:00'
+image = 'cover.jpg'
 draft = false
 description = 'Discussing the shift from simple autocompletion to autonomous agents that can plan, execute, and verify complex tasks.'
 categories = ['AI', 'Development']

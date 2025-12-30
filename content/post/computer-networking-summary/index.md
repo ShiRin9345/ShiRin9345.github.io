@@ -1,6 +1,7 @@
 +++
 title = '计算机网络核心概念总结'
 date = '2025-12-31T02:33:00+08:00'
+image = 'cover.jpg'
 draft = false
 description = '本文总结了计算机网络的基础核心概念，包括 OSI 七层模型、TCP/IP 协议栈及常见网络协议。'
 categories = ['计算机网络', '技术总结']

@@ -1,6 +1,7 @@
 +++
 title = 'Elevating Web Aesthetics: Modern CSS and Design Patterns'
 date = '2025-12-31T02:26:05+08:00'
+image = 'cover.jpg'
 draft = false
 description = 'Exploring glassmorphism, dynamic animations, and the pursuit of premium UI/UX in 2025.'
 categories = ['Design', 'Frontend']

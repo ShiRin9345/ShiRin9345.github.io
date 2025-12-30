@@ -1,6 +1,7 @@
 +++
 title = 'Static Site Mastery with Hugo'
 date = '2025-12-31T02:26:10+08:00'
+image = 'cover.jpg'
 draft = false
 description = 'Why Hugo remains a top choice for developers and how themes like Stack provide a rich, out-of-the-box experience.'
 categories = ['Hugo', 'Static Site']
