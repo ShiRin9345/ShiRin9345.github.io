@@ -3,8 +3,11 @@ languageCode = 'zh-cn'
 title = 'Shirin9345 Blog'
 theme = 'hugo-theme-stack'
 
+# 开启 Search 索引生成
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [params]
-    # 基础信息配置
     description = "我的个人博客"
     
     [params.sidebar]
@@ -18,12 +21,42 @@ theme = 'hugo-theme-stack'
     [params.comments]
         enabled = true
         provider = "utterances"
-
         [params.comments.utterances]
             repo = "ShiRin9345/ShiRin9345.github.io"
             issueTerm = "pathname"
             label = "Comment"
             theme = "github-light"
+
+    # 配置侧边栏挂件
+    [params.widgets]
+        homepage = [
+            { type = "search" },
+            { type = "archives", params = { limit = 5 } },
+            { type = "categories", params = { limit = 10 } },
+            { type = "tag-cloud", params = { limit = 10 } }
+        ]
+
+# 配置主菜单
+[[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+    params = { icon = "home" }
+
+[[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+    params = { icon = "archives" }
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 3
+    params = { icon = "search" }
 
 [caches]
   [caches.images]
