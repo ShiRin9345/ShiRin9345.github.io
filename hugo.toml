@@ -1,7 +1,22 @@
 baseURL = 'https://shirin9345.github.io/'
-languageCode = 'en-us'
+languageCode = 'zh-cn' # 顺便设置为中文
 title = 'Shirin9345 Blog'
 theme = 'hugo-theme-stack'
+
+[params]
+    # 基础信息配置
+    description = "我的个人博客"
+    
+    [params.comments]
+        enabled = true
+        provider = "utterances"
+
+        [params.comments.utterances]
+            repo = "ShiRin9345/ShiRin9345.github.io"
+            issueTerm = "pathname"
+            label = "Comment"
+            theme = "github-light"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
