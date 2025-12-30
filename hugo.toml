@@ -1,5 +1,5 @@
 baseURL = 'https://shirin9345.github.io/'
-languageCode = 'zh-cn' # 顺便设置为中文
+languageCode = 'zh-cn'
 title = 'Shirin9345 Blog'
 theme = 'hugo-theme-stack'
 
@@ -7,6 +7,14 @@ theme = 'hugo-theme-stack'
     # 基础信息配置
     description = "我的个人博客"
     
+    [params.sidebar]
+        emoji = "🍥"
+        subtitle = "探索技术与生活"
+        [params.sidebar.avatar]
+            enabled = true
+            local = true
+            src = "img/avatar.jpeg"
+
     [params.comments]
         enabled = true
         provider = "utterances"
