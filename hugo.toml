@@ -62,3 +62,10 @@ theme = 'hugo-theme-stack'
     url = "mailto:shirin9345@163.com"
     weight = 3
     params = { icon = "mail" }
+
+[[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+    params = { icon = "home" }
