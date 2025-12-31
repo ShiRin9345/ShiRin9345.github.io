@@ -1,0 +1,29 @@
+<footer class="article-footer">
+  {{ partial "article/components/tags" . }}
+
+  <section class="article-view-count">
+    {{ partial "helper/icon" "eye" }}
+    <span id="busuanzi_container_page_pv" style="display: none">
+      {{ T "article.readingCount" }}: <span id="busuanzi_value_page_pv"></span>
+    </span>
+  </section>
+
+  {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license
+  false)) }}
+  <section class="article-copyright">
+    {{ partial "helper/icon" "copyright" }}
+    <span
+      >{{ default .Site.Params.article.license.default .Params.license |
+      markdownify }}</span
+    >
+  </section>
+  {{ end }}
+
+  <section class="article-lastmod">
+    {{ partial "helper/icon" "clock" }}
+    <span>
+      {{ T "article.lastUpdatedOn" }} {{ .Lastmod | time.Format ( or
+      .Site.Params.dateFormat.lastUpdated "2006-01-02 15:04" ) }}
+    </span>
+  </section>
+</footer>

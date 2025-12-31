@@ -1,3 +1,5 @@
 article:
   wordCount:
     other: "字数: {{ .Count }} 字"
+  readingCount:
+    other: "阅读量"
