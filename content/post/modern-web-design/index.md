@@ -5,7 +5,7 @@ image = 'cover.jpg'
 draft = false
 description = 'Exploring glassmorphism, dynamic animations, and the pursuit of premium UI/UX in 2025.'
 categories = ['Design', 'Frontend']
-tags = ['CSS', 'UI/UX', 'Web Design']
+tags = ['CSS', 'UI/UX', 'Web Design', 'Technology', 'Tutorial']
 +++
 
 # Elevating Web Aesthetics: Modern CSS and Design Patterns

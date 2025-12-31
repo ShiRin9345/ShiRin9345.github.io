@@ -5,7 +5,7 @@ image = 'cover.jpg'
 draft = false
 description = 'Discussing the shift from simple autocompletion to autonomous agents that can plan, execute, and verify complex tasks.'
 categories = ['AI', 'Development']
-tags = ['Agentic AI', 'LLM', 'Software Engineering']
+tags = ['Agentic AI', 'LLM', 'Software Engineering', 'Technology']
 +++
 
 # The Rise of Agentic AI in Software Development

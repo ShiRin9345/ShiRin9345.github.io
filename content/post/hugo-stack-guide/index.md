@@ -5,7 +5,7 @@ image = 'cover.jpg'
 draft = false
 description = 'Why Hugo remains a top choice for developers and how themes like Stack provide a rich, out-of-the-box experience.'
 categories = ['Hugo', 'Static Site']
-tags = ['GoHugo', 'Web Development', 'Stack Theme']
+tags = ['GoHugo', 'Web Development', 'Stack Theme', 'Technology', 'Tutorial']
 +++
 
 # Static Site Mastery with Hugo
