@@ -45,7 +45,8 @@ theme = 'hugo-theme-stack'
             { type = "tag-cloud", params = { limit = 10 } }
         ]
         page = [
-            { type = "toc" }
+            { type = "toc" },
+            { type = "categories", params = { limit = 10 } }
         ]
 
 [caches]
