@@ -1,5 +1,7 @@
 baseURL = 'https://shirin9345.github.io/'
 languageCode = 'zh-cn'
+DefaultContentLanguage = 'zh-cn'
+hasCJKLanguage = true
 title = 'Shirin9345 Blog'
 theme = 'hugo-theme-stack'
 
