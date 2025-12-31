@@ -12,7 +12,7 @@ theme = 'hugo-theme-stack'
         [params.sidebar.avatar]
             enabled = true
             local = true
-            src = "img/avatar.jpeg"
+            src = "img/avatar.png"
 
     [params.comments]
         enabled = true
