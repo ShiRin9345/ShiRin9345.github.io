@@ -18,3 +18,19 @@ $width-scale: 0.95;
     max-width: calc(1536px * #{$width-scale});
   }
 }
+
+/* 增加主内容区和侧边栏的间距，让呼吸感更强 */
+.main-container {
+  gap: 50px;
+}
+
+/* 侧边栏菜单样式调整：增大字号和粗细 */
+#main-menu {
+  font-size: 1.8rem; /* 默认是 1.4rem，改为 1.8rem */
+
+  li {
+    a {
+      font-weight: 500; /* 稍微加粗 */
+    }
+  }
+}
