@@ -44,6 +44,40 @@ $width-scale: 0.95;
   }
 }
 
+/* 归档页面改造：双列网格且卡片化 */
+.article-list--compact {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  background-color: transparent !important;
+  box-shadow: none !important;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr; /* 大屏两列 */
+  }
+
+  article {
+    background-color: var(--card-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: none !important;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-l2);
+    }
+
+    & > a {
+      padding: 15px !important;
+    }
+
+    .article-image img {
+      border-radius: 10px !important; /* 图片圆角 */
+    }
+  }
+}
+
 /* 社交图标大小调整 */
 .menu-social svg {
   width: 26px;
