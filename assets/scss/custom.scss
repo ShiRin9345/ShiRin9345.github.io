@@ -1,21 +1,24 @@
 /* 自定义页面宽度系数 */
-/* 0.9 表示使用默认宽度的 90%，数值越小，左右边距越大 */
+/* 0.95 表示使用默认宽度的 95%，数值越小，左右边距越大 */
 $width-scale: 0.95;
 
 .container.extended {
-  /* 平板及以上：默认 1024px */
+  /* 平板及以上：默认 1024px, 侧边栏 30% */
   @media (min-width: 768px) {
     max-width: calc(1024px * #{$width-scale});
+    --right-sidebar-max-width: 25%; /* 从 30% 缩小到 25% */
   }
 
-  /* 电脑桌面：默认 1280px */
+  /* 电脑桌面：默认 1280px, 侧边栏 25% */
   @media (min-width: 1024px) {
     max-width: calc(1280px * #{$width-scale});
+    --right-sidebar-max-width: 20%; /* 从 25% 缩小到 20% */
   }
 
   /* 大屏/4K 显示器：默认 1536px */
   @media (min-width: 1280px) {
     max-width: calc(1536px * #{$width-scale});
+    --right-sidebar-max-width: 18%; /* 进一步缩小 */
   }
 }
 
@@ -32,5 +35,17 @@ $width-scale: 0.95;
     a {
       font-weight: 500; /* 稍微加粗 */
     }
+
+    /* 图标也随之增大 */
+    svg {
+      width: 24px;
+      height: 24px;
+    }
   }
+}
+
+/* 社交图标大小调整 */
+.menu-social svg {
+  width: 26px;
+  height: 26px;
 }
