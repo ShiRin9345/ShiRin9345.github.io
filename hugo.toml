@@ -41,3 +41,24 @@ theme = 'hugo-theme-stack'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+# 社交链接（侧边栏图标）
+[[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/ShiRin9345"
+    weight = 1
+    params = { icon = "brand-github" }
+
+[[menu.social]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+    weight = 2
+    params = { icon = "rss" }
+
+[[menu.social]]
+    identifier = "mail"
+    name = "E-mail"
+    url = "mailto:shirin9345@163.com"
+    weight = 3
+    params = { icon = "mail" }
