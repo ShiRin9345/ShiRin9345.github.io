@@ -15,6 +15,7 @@ theme = 'hugo-theme-stack'
         lastUpdated = "2006-01-02 15:04"
     [params.article]
         wordCount = true
+        toc = true
         [params.article.license]
             enabled = true
             default = 'LICENSED UNDER CC BY-NC-SA 4.0 · 转载请在留言板告知'
@@ -42,6 +43,9 @@ theme = 'hugo-theme-stack'
             { type = "archives", params = { limit = 5 } },
             { type = "categories", params = { limit = 10 } },
             { type = "tag-cloud", params = { limit = 10 } }
+        ]
+        page = [
+            { type = "toc" }
         ]
 
 [caches]
