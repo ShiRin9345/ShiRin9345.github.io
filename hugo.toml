@@ -7,7 +7,11 @@ theme = 'hugo-theme-stack'
 
 [params]
     description = "我的个人博客"
-    
+    [params.dateFormat]
+        published = "2006-01-02"
+        lastUpdated = "2006-01-02 15:04"
+    [params.article]
+        wordCount = true
     [params.sidebar]
         emoji = "🍥"
         subtitle = "探索技术与生活"
